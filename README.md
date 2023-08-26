@@ -49,3 +49,20 @@ Hashcat hc22000 format hash line:
 ```
 
 You can then use the fields printed above with `crack_pmkid.py` from our other repo: <a href="https://github.com/ZeroDayArcade/wpa-password-cracking-with-pmkid/">here</a>, or for more speed and power, use the `WPA*01*<PMKID>*<MAC_AP>*<MAC_CL>*<ESSID>***` line with hashcat.
+
+
+# More Zero Day Arcade Tutorials:
+**Learn Reverse Engineering, Assembly, Code Injection and More:**  
+🎓  <a href="https://zerodayarcade.com/tutorials">zerodayarcade.com/tutorials</a> 
+
+**More WiFi Hacking with Simple Python Scripts:**  
+<a href="https://github.com/ZeroDayArcade/wpa-password-cracking-with-pmkid/">Cracking WPA/WPA2 Passwords with PMKID</a>  
+<a href="https://github.com/ZeroDayArcade/capture-handshake-wpa-wifi-hacking">Capturing WPA/WPA2 4-Way Handshake</a>  
+<a href="https://github.com/ZeroDayArcade/cracking-wpa-with-handshake">Cracking WPA/WPA2 Passwords with 4-Way Handshake</a>  
+
+
+# Find Hacking Bounties in Gaming:
+🎮  <a href="https://zerodayarcade.com/bounties">zerodayarcade.com/bounties</a>
+
+
+
