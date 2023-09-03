@@ -6,11 +6,11 @@ To crack passwords from the captured PMKID obtained by this script, see our othe
 
 This script will produce hash lines in the hashcat hc22000 format that can be cracked with hashcat and will also print out the necessary data to crack passwords with the script from our other repo referenced above. It is built for simplicity and comprehension and is meant to help those looking to build their own hacking tools get started with a bare-bones example.
 
-***Only ever hack a network you own and have legal permission to hack. This is for educational purposes only and to help you advance your penetration testing skills and knowledge.*** 
-
 Unlike capturing a 4-way handshake, you do not need need to put your WiFi adapter into monitor mode. I tested the PMKID capture with <a href="https://www.amazon.com/GenBasic-Wireless-Network-Dongle-Adapter/dp/B0BNFKJPXS/">this WiFi adapter that can be bought for less than $10 on Amazon</a>. Your computer's internal WiFi adapter may work for this purpose since monitor mode is not required, but when testing with a Raspberry Pi 4 I found that I had to use the USB WiFi adapter. The capture was from a TP-Link Archer C1200 v2.0 Router (Firmware Version 2.0.0), but many other common wireless routers should work. Note that not all wireless routers are vulnerable to this exploit, only those that append a PMKID to the end of the first EAPoL frame. This exploit was originally found in 2018 by atom and the hashcat team. See the thread on the hashcat forums: <a href="https://hashcat.net/forum/thread-7717.html">Thread</a>. This script will give you a way to capture PMKID with very little code using only standard python libraries that you can modify for your own purposes. 
 
 This script should work on the majority of Linux distributions including Kali Linux and may also work on macOS or Windows, but if you are running macOS or Windows it will might be easier to use the script with a Virtual Machine running a form of Linux with VirtualBox or VMWare. 
+
+***Only ever hack a network you own and have legal permission to hack. This is for educational purposes only and to help you advance your penetration testing skills and knowledge.*** 
 
 ## Getting and running the script
 Clone the project:
