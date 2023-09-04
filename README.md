@@ -10,7 +10,7 @@ Unlike capturing a 4-way handshake, you do not need need to put your WiFi adapte
 
 This script should work on the majority of Linux distributions including Kali Linux and may also work on macOS or Windows, but if you are running macOS or Windows it will might be easier to use the script with a Virtual Machine running a form of Linux with VirtualBox or VMWare. 
 
-***Warning:** Only ever hack a network you own and have legal permission to hack. The code and information in this repository are for educational purposes only. Study it to understand concepts in penetration testing and only ever use it in a controlled environment for security analysis, password recovery and learning.* 
+***Reminder:** Only ever hack a network you own and have legal permission to hack. Any hacking skills/knowledge gained from this repository should only be used in the context of security research, penetration testing, password recovery, and education.* 
 
 ## Getting and running the script
 Clone the project:
